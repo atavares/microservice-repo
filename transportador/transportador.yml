@@ -1,1 +1,10 @@
-
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      dialect: org.hibernate.dialect.MySQL57Dialect
+  datasource:
+    password: root
+    username: root
+    url: jdbc:mysql://localhost:3307/transportador?serverTimezone=UTC
